@@ -1,0 +1,28 @@
+{
+  "source": "CDC, 'The Timed Up and Go (TUG) Test', public domain, via Wikimedia Commons",
+  "clip_seconds": [
+    48.3,
+    65.2
+  ],
+  "analysis_fps": 23.98,
+  "frames_with_two_people_detected": 0,
+  "frames": 405,
+  "test_start_video_s": 52.3,
+  "test_end_video_s": 64.77,
+  "total_time": 12.47,
+  "start": 4.0,
+  "end": 16.47,
+  "steps": 14,
+  "cadence_spm": 96.83,
+  "trunk_lean_mean_deg": 11.39,
+  "trunk_lean_sd_deg": 5.84,
+  "detection_rate": 0.98,
+  "increased_risk": true,
+  "phase_durations": {
+    "sit_to_stand": 0.41708333333333325,
+    "walk_out": 3.336666666666667,
+    "turn": 0.2502499999999994,
+    "walk_back": 5.338666666666667,
+    "turn_to_sit": 3.128124999999999
+  }
+}

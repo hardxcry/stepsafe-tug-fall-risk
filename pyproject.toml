@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tugrisk"
+version = "1.0.0"
+description = "Video-based Timed Up and Go analysis for fall-risk screening research"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy", "scipy", "mediapipe", "opencv-python", "requests",
+  "matplotlib", "plotly", "pandas", "streamlit",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
