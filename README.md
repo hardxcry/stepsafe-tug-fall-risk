@@ -1,5 +1,7 @@
 # StepSafe: video-based Timed Up and Go analysis for fall-risk screening
 
+![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white) ![Status](https://img.shields.io/badge/status-research%20prototype-f59e0b) ![Tests](https://img.shields.io/badge/tests-12%20passing-16a34a) ![Licence](https://img.shields.io/badge/licence-all%20rights%20reserved-b91c1c)
+
 Times the CDC Timed Up and Go (TUG) test from an ordinary video using markerless pose
 estimation, splits it into five phases, and measures steps, cadence and trunk lean. No
 wearables and no markers.
@@ -90,4 +92,6 @@ Hariharan S, Department of Biomedical Engineering.
 
 ## License
 
-MIT.
+Copyright (c) 2026 Hariharan S. **All rights reserved.** This repository is public for viewing
+and evaluation only. Copying, reuse or redistribution of the code, text, figures or models
+needs written permission from the author. See [LICENSE](LICENSE). The demonstration frames come from a public-domain CDC video.
